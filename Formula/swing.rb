@@ -4,11 +4,11 @@ class Swing < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/amane-katagiri/swing/releases/download/v0.1.3/swing-v0.1.3-aarch64-apple-darwin.tar.gz"
-    sha256 "f44160d57ccf5169367afb326e021635baab0bd1ca5b7d911f56e214bb1c240a"
+    url "https://github.com/amane-katagiri/swing/releases/download/v0.1.4/swing-v0.1.4-aarch64-apple-darwin.tar.gz"
+    sha256 "f0786eb817e0d588da4c001895db780f06204db9fa0d52db2852cfa70dd0ea21"
   else
-    url "https://github.com/amane-katagiri/swing/releases/download/v0.1.3/swing-v0.1.3-x86_64-apple-darwin.tar.gz"
-    sha256 "664425ae2fe800729842bc8616981e24a79a4fab7ac912d4d7d5e3f8d1be36b4"
+    url "https://github.com/amane-katagiri/swing/releases/download/v0.1.4/swing-v0.1.4-x86_64-apple-darwin.tar.gz"
+    sha256 "d0c6b3aed9a3ac4915945b0c1e0ef1f53d1143d32f9647b85a0d1a2f5b7ef9fb"
   end
 
   depends_on "kubo"
